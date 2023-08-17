@@ -21,7 +21,7 @@ chatbotContainer.innerHTML = `
             </div>
         </div>
         <div class="chatbox__button">
-            <button><img src="./images/chatbox-icon.svg" /></button>
+            <button><img src="https://fabulous-belekoy-8e0af5.netlify.app/images/chatbox-icon.svg" /></button>
         </div>
 `;
 
