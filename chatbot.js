@@ -29,7 +29,7 @@ chatbotContainer.innerHTML = `
 //(CSS file)
 const styles = document.createElement("link");
 styles.rel = "stylesheet";
-styles.href = "https://fabulous-belekoy-8e0af5.netlify/style.css";
+styles.href = "https://fabulous-belekoy-8e0af5.netlify.app/style.css";
 https://050a-103-166-40-13.ngrok-free.app
 document.head.appendChild(styles);
 

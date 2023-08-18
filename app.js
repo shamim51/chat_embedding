@@ -62,7 +62,7 @@ class Chatbox {
         sendButton.disabled = true;
         sendButton.textContent = "Sending...";
     
-        fetch('http://127.0.0.1:8000/predict', {
+        fetch('https://fastbot-1-m8126496.deta.app/predict', {
             method: 'POST',
             body: JSON.stringify({ message: userMessage }),
             mode: 'cors',
