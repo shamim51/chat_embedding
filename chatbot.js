@@ -29,13 +29,12 @@ chatbotContainer.innerHTML = `
 //(CSS file)
 const styles = document.createElement("link");
 styles.rel = "stylesheet";
-styles.href = "https://fabulous-belekoy-8e0af5.netlify.app/style.css";
-https://050a-103-166-40-13.ngrok-free.app
+styles.href = "style.css";
 document.head.appendChild(styles);
 
 // (JS file)
 const script = document.createElement("script");
-script.src = "https://fabulous-belekoy-8e0af5.netlify.app/app.js"; 
+script.src = "app.js"; 
 document.body.appendChild(script);
 
 // Append the chatbot container to the document body
